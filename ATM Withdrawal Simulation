@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+    float balance = 5000.00;
+    float withdrawAmount;
+
+    printf("ATM Withdrawal Simulation\n");
+    printf("--------------------------\n");
+    printf("Current Balance: %.2f\n", balance);
+
+    printf("Enter withdrawal amount: ");
+    scanf("%f", &withdrawAmount);
+
+    if (withdrawAmount > 0) {
+        if (withdrawAmount <= balance) {
+            balance = balance - withdrawAmount;
+            printf("Withdrawal Successful!\n");
+            printf("Updated Balance: %.2f\n", balance);
+        } else {
+            printf("Error: Insufficient balance!\n");
+        }
+    } else {
+        printf("Error: Invalid withdrawal amount!\n");
+    }
+
+    return 0;
+}
