@@ -1,26 +1,26 @@
-# 🏧 ATM Withdrawal Simulation (C Programming)
+🏧 ATM Withdrawal Simulation (C Programming)
 
-## 📌 Project Title
+##  Project Title
 ATM Withdrawal Simulation
 
-## 📘 Topic Name
+##  Topic Name
 Simulate ATM Withdrawal
 
 ---
 
-## 🎯 Objective
+ ## Objective
 To simulate a basic ATM cash withdrawal system using **C programming**, where the program validates the withdrawal amount and updates the account balance accordingly.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Programming Language:** C  
 - **Code Editor:** VS Code  
 - **Version Control:** Git & GitHub  
 
 ---
 
-## 📝 Project Description
+ 📝 Project Description
 This project simulates the core functionality of an **ATM withdrawal process**.
 
 The user enters a withdrawal amount, and the program checks:
@@ -41,19 +41,7 @@ This project demonstrates the use of:
 
 ---
 
-## ✅ Expected Output
-
-### ✔ Successful Case
-- Successful withdrawal message  
-- Updated account balance  
-
-### ❌ Error Cases
-- Error message for invalid amount  
-- Error message for insufficient balance  
-
----
-
-## 🔍 Detailed Walkthrough (How to Approach the Problem)
+## Detailed Walkthrough (How to Approach the Problem)
 
 1. Declare a variable `balance` and initialize it with a fixed amount  
 2. Ask the user to enter the withdrawal amount  
@@ -67,7 +55,7 @@ This project demonstrates the use of:
 
 ---
 
-## 🧮 Algorithm
+## Algorithm
 
 1. Start  
 2. Initialize balance  
